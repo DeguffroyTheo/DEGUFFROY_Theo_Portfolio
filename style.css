@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Avenir LT Std 55 Roman";
+    src: url("font/AvenirFont/AvenirLTStd-Roman.otf") format("opentype");
+   }
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to left top,#9FCB7F,#6FB3E3);
+    font-family: 'Comfortaa', cursive;
+}
+.f h1{
+    color:whitesmoke;
+    padding-bottom:5rem;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+.fend h1{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+h2{
+    color: whitesmoke;
+    padding-bottom: 1rem;
+}
+h3{
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem 0 5rem 0;
+    font-size: 1rem;
+}
+h3:hover{
+    text-decoration: underline;
+}
+p{
+    font-family: 'Avenir LT Std 55 Roman';
+
+}
+.f1 h1{
+    padding-top: 5rem;
+}
+.f1 h2{
+    padding-top: 3rem;
+}
+.f1 p{
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 20px;
+    min-height: 400px;
+}
+.f2 p{
+    color: whitesmoke;
+}
+.f3 p{
+
+}
+.menu{
+    display:flex;
+}
+.f{
+    padding: 10rem 0 10rem 0;
+    height: 60rem;
+    border-top: 10px solid whitesmoke;
+}
+
+.f1{
+    height: 130rem;
+}
+.f2{
+    background-color:#111820;
+    height: 70rem;
+}
+.f3{
+    height: 75rem;
+}
+
+.slider3D{
+    max-height: 1000px;
+}
+header{
+  display: flex;
+}
+.navbar{
+  justify-content:space-between;
+  width: 100%;
+  border-bottom: 10px solid whitesmoke;
+
+}
+#vid{
+    border: 5px solid white;
+    width: 100%;
+    
+}
+#api-frame{
+    border: 5px solid whitesmoke;
+}
+#menu{
+    flex:1 1 1rem;
+	justify-content:space-evenly;
+}
+#drop1{
+    display: none;
+}
+
+.fend{
+    background-color:#111820;
+    padding: 5rem 0 2rem 0;
+    height: 30rem;
+    overflow:hidden ;
+    border-top: 10px solid whitesmoke;
+}
+.cadre{
+    background-color: whitesmoke;
+    padding: 5rem 2rem 5rem 2rem;
+    border-radius: 20px;
+    
+}
+.cadre h2{
+    color: black;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.imgcontact{
+    width: 120px;
+    height: auto;
+
+}
+a .linklogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: whitesmoke;
+}
+
+#carouselExampleIndicators{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    outline: black;
+}
+.d-block{
+    max-height: 400px;
+    max-width: auto;
+    margin: auto;
+}
+.carousel-control{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 50px;
+}
+.cadreimg{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    max-height: 400px;
+    max-width: auto;
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .f2{
+        height: 90rem;
+    }
+    .f1{
+        height: 160rem;
+    }
+    #api-frame{
+        margin-bottom: 5rem;
+    }
+    .f1 p{
+        min-height: 0px;
+    }
+}
+@media only screen and (max-width: 767px) {
+
+    .cadreimg{
+        max-height: 250px;
+    }
+
+}
+@media only screen and (max-width: 365px) {
+
+    h1{
+        display: none;
+    }
+    .cadreimg{
+        max-height: 100px;
+    }
+    .imgcontact{
+        width: 60px;
+        height: auto;
+    
+    }
+}
